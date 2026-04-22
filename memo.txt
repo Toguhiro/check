@@ -1,19 +1,7 @@
-%LOCALAPPDATA%\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\Claude
-
-{
-  "mcpServers": {
-    "discord-notify": {
-      "command": "python",
-      "args": [
-        "C:\\Users\\（ユーザー名）\\claude-mcp\\discord-notify\\notify.py"
-      ]
-    }
-  }
-}
-
-
-以下の場合は必ず notify_discord ツールで通知を送ること：
-・長い作業が完了したとき
-・エラーが発生して処理が止まったとき
-・ユーザーの確認が必要になったとき
-通知メッセージは日本語で簡潔に。
+改めて今困っていることを言います。
+2台のPCでClaudeを2アカウント使って業務を行っています。
+机のスペース上、1つの外部モニタへの出力が限度であり、モニタの入力信号を切り替えながら業務を行っています。
+AのPCの画面をモニタに出力してAのClaudeで業務を行う→AのClaudeの処理を待っている間、BのPCを外部モニタに出力してBのClaudeにて業務を行う。
+といった切り替えをしています。
+ただし、Claudeがエラー等で動作が止まった場合、検知して再実行するのに気付くのが遅れます。
+何かあれば画面を切り替える。ということがしたいです。
