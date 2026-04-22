@@ -2,7 +2,7 @@ import json, urllib.request
 from mcp.server.fastmcp import FastMCP
 
 PC_NAME = "PC-B"
-WEBHOOK_URL = "https://discordapp.com/api/webhooks/1496430864429486162/msH17xomsl437qMAGtSBaHLgHNRMiK_EFLpVAGEZRZdCzLpH16qAYTt9cA-DZy3-03TL"
+WEBHOOK_URL = "https://discordapp.com/api/webhooks/1496436438588194929/4uE2OmIAuuH7oqNjtpHtN7bnGBkd_uNsmXJVZltXJJb2XJwzfCFCP2mUPS5aLPu1DMTH"
 
 mcp = FastMCP("discord-notify")
 
